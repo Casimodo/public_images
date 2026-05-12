@@ -1,0 +1,2275 @@
+{
+	"economy-override":
+	{
+		"economy-reset-time-hours": "8.0",
+		"prices-randomization-time-hours": "2.0",
+		"tradeable-rotation-time-ingame-hours-min": "8.0",
+		"tradeable-rotation-time-ingame-hours-max": "12.0",
+		"tradeable-rotation-time-of-day-min": "8.0",
+		"tradeable-rotation-time-of-day-max": "16.0",
+		"fully-restock-tradeable-hours": "5.0",
+		"trader-funds-change-rate-per-hour-multiplier": "1.0",
+		"prices-subject-to-player-count": "0",
+		"gold-price-subject-to-global-multiplier": "0",
+		"gold-base-price": "1000",
+		"gold-sale-price-modifier": "0.85",
+		"gold-price-change-percentage-step": "0.05",
+		"gold-price-change-per-step": "0.05",
+		"economy-logging": "1",
+		"traders-unlimited-funds": "0",
+		"traders-unlimited-stock": "0",
+		"global-only-after-player-sale-tradeable-availability-enabled": "0",
+		"tradeable-rotation-enabled": "1",
+		"enable-fame-point-requirement": "1",
+		"traders":
+		{
+			"A_0_Armory": [
+				{
+					"tradeable-code": "Frag_Grenade",
+					"base-purchase-price": "-1",
+					"base-sell-price": "-1",
+					"delta-price": "-1.0",
+					"can-be-purchased": "default",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				},
+				{
+					"tradeable-code": "Weapon_AK47",
+					"base-purchase-price": "-1",
+					"base-sell-price": "-1",
+					"delta-price": "-1.0",
+					"can-be-purchased": "default",
+					"required-famepoints": "-1",
+					"available-after-sale-only": "default"
+				}
+			],
+			"A_0_BoatShop": [
+				{
+					"tradeable-code": "Fish_Amur",
+					"base-purchase-price": "360",
+					"base-sell-price": "120",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bass",
+					"base-purchase-price": "420",
+					"base-sell-price": "140",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bleak",
+					"base-purchase-price": "180",
+					"base-sell-price": "60",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Carp",
+					"base-purchase-price": "300",
+					"base-sell-price": "100",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Catfish",
+					"base-purchase-price": "900",
+					"base-sell-price": "300",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Chub",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_CrucianCarp",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Dentex",
+					"base-purchase-price": "720",
+					"base-sell-price": "240",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Orata",
+					"base-purchase-price": "600",
+					"base-sell-price": "200",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Pike",
+					"base-purchase-price": "780",
+					"base-sell-price": "260",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_PrussianCarp",
+					"base-purchase-price": "270",
+					"base-sell-price": "90",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Ruffe",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Sardine",
+					"base-purchase-price": "210",
+					"base-sell-price": "70",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Tuna",
+					"base-purchase-price": "1500",
+					"base-sell-price": "500",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"A_0_Hospital": [],
+			"A_0_Mechanic": [],
+			"A_0_Saloon": [
+				{
+					"tradeable-code": "Apple",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Apple_2",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Banana",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "CantaloupeMelon",
+					"base-purchase-price": "68",
+					"base-sell-price": "23",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Crab_Apple",
+					"base-purchase-price": "11",
+					"base-sell-price": "4",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Date",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "GrapeFruit",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Kiwi",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lemon",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lime",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Mango",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Olives",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Orange",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Peach",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pear",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pineapple",
+					"base-purchase-price": "75",
+					"base-sell-price": "25",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Plum",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pumpkin",
+					"base-purchase-price": "90",
+					"base-sell-price": "30",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Watermelon",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tangerine",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Aloe_Vera",
+					"base-purchase-price": "56",
+					"base-sell-price": "19",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Beet",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Bell_Pepper",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Broccoli",
+					"base-purchase-price": "41",
+					"base-sell-price": "14",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cabbage",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cannabis_Bud",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Carrot",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cauliflower",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Celery",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Chili_Pepper",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Corn",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cucumber",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fig",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Garlic",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lettuce",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Onion",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Opuntia_Fig",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Parsley",
+					"base-purchase-price": "19",
+					"base-sell-price": "6",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pine_Cone",
+					"base-purchase-price": "8",
+					"base-sell-price": "3",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Potato",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Ramsons",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Salsify_roots",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Spinach",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "SugarBeet",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tobacco",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tomato",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Zucchini",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"A_0_Trader": [],
+			"B_4_Armory": [],
+			"B_4_BoatShop": [
+				{
+					"tradeable-code": "Fish_Amur",
+					"base-purchase-price": "360",
+					"base-sell-price": "120",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bass",
+					"base-purchase-price": "420",
+					"base-sell-price": "140",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bleak",
+					"base-purchase-price": "180",
+					"base-sell-price": "60",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Carp",
+					"base-purchase-price": "300",
+					"base-sell-price": "100",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Catfish",
+					"base-purchase-price": "900",
+					"base-sell-price": "300",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Chub",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_CrucianCarp",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Dentex",
+					"base-purchase-price": "720",
+					"base-sell-price": "240",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Orata",
+					"base-purchase-price": "600",
+					"base-sell-price": "200",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Pike",
+					"base-purchase-price": "780",
+					"base-sell-price": "260",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_PrussianCarp",
+					"base-purchase-price": "270",
+					"base-sell-price": "90",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Ruffe",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Sardine",
+					"base-purchase-price": "210",
+					"base-sell-price": "70",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Tuna",
+					"base-purchase-price": "1500",
+					"base-sell-price": "500",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"B_4_Hospital": [],
+			"B_4_Mechanic": [],
+			"B_4_Saloon": [
+				{
+					"tradeable-code": "Apple",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Apple_2",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Banana",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "CantaloupeMelon",
+					"base-purchase-price": "68",
+					"base-sell-price": "23",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Crab_Apple",
+					"base-purchase-price": "11",
+					"base-sell-price": "4",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Date",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "GrapeFruit",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Kiwi",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lemon",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lime",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Mango",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Olives",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Orange",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Peach",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pear",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pineapple",
+					"base-purchase-price": "75",
+					"base-sell-price": "25",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Plum",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pumpkin",
+					"base-purchase-price": "90",
+					"base-sell-price": "30",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Watermelon",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tangerine",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Aloe_Vera",
+					"base-purchase-price": "56",
+					"base-sell-price": "19",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Beet",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Bell_Pepper",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Broccoli",
+					"base-purchase-price": "41",
+					"base-sell-price": "14",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cabbage",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cannabis_Bud",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Carrot",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cauliflower",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Celery",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Chili_Pepper",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Corn",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cucumber",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fig",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Garlic",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lettuce",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Onion",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Opuntia_Fig",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Parsley",
+					"base-purchase-price": "19",
+					"base-sell-price": "6",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pine_Cone",
+					"base-purchase-price": "8",
+					"base-sell-price": "3",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Potato",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Ramsons",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Salsify_roots",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Spinach",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "SugarBeet",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tobacco",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tomato",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Zucchini",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"B_4_Trader": [],
+			"C_2_Armory": [],
+			"C_2_BoatShop": [
+				{
+					"tradeable-code": "Fish_Amur",
+					"base-purchase-price": "360",
+					"base-sell-price": "120",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bass",
+					"base-purchase-price": "420",
+					"base-sell-price": "140",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bleak",
+					"base-purchase-price": "180",
+					"base-sell-price": "60",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Carp",
+					"base-purchase-price": "300",
+					"base-sell-price": "100",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Catfish",
+					"base-purchase-price": "900",
+					"base-sell-price": "300",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Chub",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_CrucianCarp",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Dentex",
+					"base-purchase-price": "720",
+					"base-sell-price": "240",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Orata",
+					"base-purchase-price": "600",
+					"base-sell-price": "200",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Pike",
+					"base-purchase-price": "780",
+					"base-sell-price": "260",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_PrussianCarp",
+					"base-purchase-price": "270",
+					"base-sell-price": "90",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Ruffe",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Sardine",
+					"base-purchase-price": "210",
+					"base-sell-price": "70",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Tuna",
+					"base-purchase-price": "1500",
+					"base-sell-price": "500",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"C_2_Hospital": [],
+			"C_2_Mechanic": [],
+			"C_2_Saloon": [
+				{
+					"tradeable-code": "Apple",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Apple_2",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Banana",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "CantaloupeMelon",
+					"base-purchase-price": "68",
+					"base-sell-price": "23",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Crab_Apple",
+					"base-purchase-price": "11",
+					"base-sell-price": "4",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Date",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "GrapeFruit",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Kiwi",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lemon",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lime",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Mango",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Olives",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Orange",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Peach",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pear",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pineapple",
+					"base-purchase-price": "75",
+					"base-sell-price": "25",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Plum",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pumpkin",
+					"base-purchase-price": "90",
+					"base-sell-price": "30",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Watermelon",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tangerine",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Aloe_Vera",
+					"base-purchase-price": "56",
+					"base-sell-price": "19",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Beet",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Bell_Pepper",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Broccoli",
+					"base-purchase-price": "41",
+					"base-sell-price": "14",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cabbage",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cannabis_Bud",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Carrot",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cauliflower",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Celery",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Chili_Pepper",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Corn",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cucumber",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fig",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Garlic",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lettuce",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Onion",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Opuntia_Fig",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Parsley",
+					"base-purchase-price": "19",
+					"base-sell-price": "6",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pine_Cone",
+					"base-purchase-price": "8",
+					"base-sell-price": "3",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Potato",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Ramsons",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Salsify_roots",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Spinach",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "SugarBeet",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tobacco",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tomato",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Zucchini",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"C_2_Trader": [],
+			"Z_3_Armory": [],
+			"Z_3_BoatShop": [
+				{
+					"tradeable-code": "Fish_Amur",
+					"base-purchase-price": "360",
+					"base-sell-price": "120",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bass",
+					"base-purchase-price": "420",
+					"base-sell-price": "140",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Bleak",
+					"base-purchase-price": "180",
+					"base-sell-price": "60",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Carp",
+					"base-purchase-price": "300",
+					"base-sell-price": "100",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Catfish",
+					"base-purchase-price": "900",
+					"base-sell-price": "300",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Chub",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_CrucianCarp",
+					"base-purchase-price": "240",
+					"base-sell-price": "80",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Dentex",
+					"base-purchase-price": "720",
+					"base-sell-price": "240",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Orata",
+					"base-purchase-price": "600",
+					"base-sell-price": "200",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Pike",
+					"base-purchase-price": "780",
+					"base-sell-price": "260",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_PrussianCarp",
+					"base-purchase-price": "270",
+					"base-sell-price": "90",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Ruffe",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Sardine",
+					"base-purchase-price": "210",
+					"base-sell-price": "70",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fish_Tuna",
+					"base-purchase-price": "1500",
+					"base-sell-price": "500",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"Z_3_Hospital": [],
+			"Z_3_Mechanic": [],
+			"Z_3_Saloon": [
+				{
+					"tradeable-code": "Apple",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Apple_2",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Banana",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "CantaloupeMelon",
+					"base-purchase-price": "68",
+					"base-sell-price": "23",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Crab_Apple",
+					"base-purchase-price": "11",
+					"base-sell-price": "4",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Date",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "GrapeFruit",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Kiwi",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lemon",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lime",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Mango",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Olives",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Orange",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Peach",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pear",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pineapple",
+					"base-purchase-price": "75",
+					"base-sell-price": "25",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Plum",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pumpkin",
+					"base-purchase-price": "90",
+					"base-sell-price": "30",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Watermelon",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tangerine",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Aloe_Vera",
+					"base-purchase-price": "56",
+					"base-sell-price": "19",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Beet",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Bell_Pepper",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Broccoli",
+					"base-purchase-price": "41",
+					"base-sell-price": "14",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cabbage",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cannabis_Bud",
+					"base-purchase-price": "150",
+					"base-sell-price": "50",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Carrot",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cauliflower",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Celery",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Chili_Pepper",
+					"base-purchase-price": "45",
+					"base-sell-price": "15",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Corn",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Cucumber",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Fig",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Garlic",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Lettuce",
+					"base-purchase-price": "23",
+					"base-sell-price": "8",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Onion",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Opuntia_Fig",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Parsley",
+					"base-purchase-price": "19",
+					"base-sell-price": "6",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Pine_Cone",
+					"base-purchase-price": "8",
+					"base-sell-price": "3",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Potato",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Ramsons",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Salsify_roots",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Spinach",
+					"base-purchase-price": "26",
+					"base-sell-price": "9",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "SugarBeet",
+					"base-purchase-price": "34",
+					"base-sell-price": "11",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tobacco",
+					"base-purchase-price": "113",
+					"base-sell-price": "38",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Tomato",
+					"base-purchase-price": "30",
+					"base-sell-price": "10",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				},
+				{
+					"tradeable-code": "Zucchini",
+					"base-purchase-price": "38",
+					"base-sell-price": "13",
+					"delta-price": "-1.0",
+					"can-be-purchased": "true",
+					"required-famepoints": "0",
+					"available-after-sale-only": "true"
+				}
+			],
+			"Z_3_Trader": []
+		}
+	}
+}
